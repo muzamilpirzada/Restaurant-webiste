@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Fira+Sans:ital,wght@1,100&family=Poppins:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -53,7 +54,7 @@
     transition: all .5s ease-in-out;
 }
 .navbar ul li:hover{
-    color: rgb(212, 212, 47);
+    color: #FFCA00;
 }
 
 .logo{
@@ -80,7 +81,7 @@
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 1px;
-    color: yellow;
+    color: #FFCA00;
     text-transform: uppercase;
 }
 
@@ -100,7 +101,7 @@
     text-transform: uppercase;
 }
 .para>span{
-    color: yellow;
+    color: #FFCA00;
 }
 
 
@@ -161,7 +162,7 @@ word-spacing: 2px;
 
 }
 .second-section>h2>span{
-    color: yellow;
+    color: #FFCA00;
 
 }
 
@@ -230,7 +231,7 @@ word-spacing: 2px;
     font-family: sans-serif;   
 }
 .third-content-para2>p{
-    color: yellow;
+    color: #FFCA00;
     font-family: sans-serif;
     word-spacing: 5px;
     letter-spacing: 2px;
@@ -352,7 +353,7 @@ word-spacing: 2px;
 
 .input1{
     color: white;
-    border: 1px solid yellow;
+    border: 1px solid #FFCA00;
     font-size: 13px;
     background-color: transparent;
     padding: 10px 80px 10px 5px;
@@ -386,7 +387,7 @@ word-spacing: 2px;
 
 .input2{
     color: white;
-    border: 1px solid yellow;
+    border: 1px solid #FFCA00;
     font-size: 13px;
     background-color: transparent;
     padding: 10px 80px 10px 5px;
@@ -412,7 +413,7 @@ word-spacing: 2px;
 /* button */
 #btn{
     text-align: center;
-    background-color: yellow;
+    background-color: #FFCA00;
     color: black;
     font-size: 20px;
     text-transform: uppercase;
@@ -430,11 +431,11 @@ word-spacing: 2px;
     color: white;
 }
 .sixth-section{
-    height: 120vh;
+    height: 121vh;
     background-image: url("../assets/sixth-section.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 120vh ;
+    background-size: 100% 121vh ;
 }
 
 .seven-section{
@@ -443,8 +444,14 @@ word-spacing: 2px;
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
     overflow: hidden;
+    text-align: center;
+    color: white;
+
     
 }
 .seven-section>img{
@@ -452,6 +459,79 @@ word-spacing: 2px;
     position: absolute;
     bottom: 30%;
     left: 65%;
+}
+
+.seven-section .quolan{
+font-size: 121px;
+font-weight: bold;
+color: #FFC901;
+font-family: 'Chivo', sans-serif;
+}
+
+.para4{
+    color: #F6F7F7;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 30px;
+    font-family: 'Chivo', sans-serif;
+}
+.seven-section>h2{
+    color: #FFC901;
+    text-transform: uppercase;
+    font-size: 34;
+    font-family: 'Chivo', sans-serif;
+    margin-top: 50px;
+}
+/* eigth section */
+.eigth-section{
+    background-image: url("../assets/Rectangle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+
+
+}
+.eigth-section-header{
+    background-image: url("../assets/eigth-design.png");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    justify-content: start;
+    margin-top: 50px;
+}
+
+.eigth-inner-heading{
+    width: 45%;
+    margin:8% 7% 0 0
+}
+
+.eigth-heading{
+    font-size: 50px;
+    font-weight: none;
+    font-family: 'Chivo', sans-serif;
+    margin-bottom: 30px;
+    color: #FFCA00;
+}
+
+.eigth-inner-heading>p{
+    color: #F6F7F7;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 30px;
+    font-family: 'Chivo', sans-serif; 
+}
+
+.eigth-last-heading{
+    font-size: 50px;
+    font-weight: none;
+    font-family: 'Chivo', sans-serif;
+    color: #FFCA00;
+    margin-top: 30px;
 }
 
 
